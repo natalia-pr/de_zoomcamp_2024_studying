@@ -27,7 +27,7 @@ hw_taxi_ingest:v002 \
 #Open Pg-Admin
 localhost:8080 in browser
 
-#Upload taxi zones thriugh jupiter-notebook
+#Upload taxi zones through jupyter-notebook
 python3 -m notebook
 
 4.
