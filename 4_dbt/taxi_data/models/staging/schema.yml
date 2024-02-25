@@ -9,6 +9,7 @@ sources:
     tables:
       - name: green_taxi_data
       - name: yellow_taxi_data
+      - name: fhv_tripdata
 
 
 models:
@@ -204,4 +205,32 @@ models:
 
       - name: payment_type_description
         data_type: string
+        description: ""
+
+        
+  - name: stg_fth_trip_data
+    description: ""
+    columns:
+      - name: tripid
+        data_type: string
+        description: ""
+
+      - name: dispatching_base_num
+        data_type: int64
+        description: ""
+
+      - name: pickup_locationid
+        data_type: int64
+        description: ""
+
+      - name: dropoff_locationid
+        data_type: int64
+        description: ""
+
+      - name: pickup_datetime
+        data_type: timestamp
+        description: ""
+
+      - name: dropoff_datetime
+        data_type: timestamp
         description: ""
